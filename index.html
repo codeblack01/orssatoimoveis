@@ -1,0 +1,345 @@
+<!-- Header -->
+<header class="bg-white shadow-md fixed w-full top-0 z-50">
+  <div class="container mx-auto px-4 py-3">
+    <div class="flex items-center justify-between">
+        
+        
+        
+       <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '465184596679763');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=465184596679763&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+       
+       
+       
+      <!-- Logo -->
+      <a href="/" class="flex items-center">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/Design-sem-nome-10.png" 
+             alt="Orsatto Imóveis" 
+             class="h-10">
+      </a>
+
+      <!-- Menu Desktop -->
+      <div class="hidden md:flex items-center space-x-6">
+        <a href="tel:+554932026885" 
+           class="text-primary hover:text-accent transition flex items-center gap-2 font-medium">
+          <i class="fas fa-phone-alt"></i> (49) 3202-6885
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=554932026885&text=Gostei+da+casa+gostaria+de+conhecer" 
+           class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition flex items-center gap-2 shadow-md">
+          <i class="fab fa-whatsapp text-lg"></i> WhatsApp
+        </a>
+      </div>
+
+      <!-- Botão Mobile -->
+      <button id="menu-toggle" class="md:hidden text-primary text-2xl focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out bg-white shadow-md md:hidden">
+    <div class="flex flex-col items-start space-y-4 p-4 border-t">
+      <a href="tel:+554932026885" 
+         class="text-primary hover:text-accent transition flex items-center gap-2 font-medium">
+        <i class="fas fa-phone-alt"></i> (49) 3202-6885
+      </a>
+      <a href="https://api.whatsapp.com/send/?phone=554932026885&text=Gostei+da+casa+gostaria+de+conhecer" 
+         class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition flex items-center gap-2 w-full justify-center shadow-md">
+        <i class="fab fa-whatsapp text-lg"></i> Fale no WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Toggle menu mobile com slide
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    const menu = document.getElementById('mobile-menu');
+    if (menu.classList.contains('max-h-0')) {
+      menu.classList.remove('max-h-0');
+      menu.classList.add('max-h-96');
+    } else {
+      menu.classList.remove('max-h-96');
+      menu.classList.add('max-h-0');
+    }
+  });
+</script>
+<!-- Gallery -->
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-primary mb-12">Galeria do Imóvel</h2>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <!-- Imagens sem repetição -->
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0103-1-scaled.jpg" 
+             alt="Fachada lateral" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0104-scaled.jpg" 
+             alt="Vista lateral do imóvel" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0113-scaled.jpg" 
+             alt="Área externa" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0120-scaled.jpg" 
+             alt="Sala de estar" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0123-1-scaled.jpg" 
+             alt="Cozinha planejada" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow-md">
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0127-1-scaled.jpg" 
+             alt="Área gourmet" 
+             class="w-full aspect-video object-cover transform hover:scale-105 transition duration-500">
+      </div>
+
+    
+
+    </div>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <base target="_self">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sua próxima conquista merece conforto e segurança. Agende sua visita!">
+  <meta name="keywords" content="Casa, Imóvel, 2 Quartos, orsatto imóveis, Suíte, imóvel à venda">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1a365d",
+            secondary: "#2d3748",
+            accent: "#d4af37",
+            light: "#f8fafc"
+          },
+          fontFamily: {
+            'sans': ['Montserrat', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-light text-gray-800">
+
+<!-- Property Details -->
+<section class="py-10 md:py-16 bg-white">
+  <div class="container mx-auto px-4">
+    
+    <!-- Título corrigido -->
+    <h2 class="text-lg sm:text-2xl md:text-3xl font-bold text-center text-primary mb-8 whitespace-nowrap">
+      Descubra Como é Bom Viver Aqui
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+      <!-- Imagem -->
+      <div>
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/IMG_0108-scaled.jpg" 
+             alt="Frente casa padrão" 
+             class="w-full rounded-lg shadow-lg object-cover h-64 sm:h-80 md:h-full" 
+             loading="lazy">
+      </div>
+
+      <!-- Texto -->
+      <div class="flex flex-col justify-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-primary mb-3">
+          Moradia Perfeita pra Você e sua Família
+        </h3>
+        <p class="text-gray-700 mb-3 text-sm sm:text-base">
+          Imóvel exclusivo que oferece mais do que um endereço - oferece um estilo de vida. 
+          Com acabamentos premium e atenção aos detalhes, cada centímetro foi pensado para proporcionar conforto e elegância.
+        </p>
+        <ul class="space-y-2 text-sm sm:text-base">
+          <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Piso porcelanato em toda área social</li>
+          <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Sala e cozinha com pé direito alto</li>
+          <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Aberturas em alumínio suprema</li>
+          <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Espera para automação</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="text-center p-6 bg-light rounded-lg shadow-sm">
+        <i class="fas fa-snowflake text-3xl sm:text-4xl text-accent mb-3"></i>
+        <h4 class="font-semibold text-primary mb-2 text-sm sm:text-base">Espera para Ar-Condicionado</h4>
+        <p class="text-gray-600 text-xs sm:text-sm">Infraestrutura completa para instalação de Ar-condicionado</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="text-center p-6 bg-light rounded-lg shadow-sm">
+        <i class="fas fa-door-closed text-3xl sm:text-4xl text-accent mb-3"></i>
+        <h4 class="font-semibold text-primary mb-2 text-sm sm:text-base">Portão e Porteiro Eletrônico</h4>
+        <p class="text-gray-600 text-xs sm:text-sm">Interfone eletrônico com câmera e portão elétrico</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="text-center p-6 bg-light rounded-lg shadow-sm">
+        <i class="fas fa-map-marker-alt text-3xl sm:text-4xl text-accent mb-3"></i>
+        <h4 class="font-semibold text-primary mb-2 text-sm sm:text-base">Localização Privilegiada</h4>
+        <p class="text-gray-600 text-xs sm:text-sm">Alto potencial de valorização em uma região segura e tranquila</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+ <!-- Testimonials -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">O que Nossos<br>Clientes Dizem</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl">★★★★★</div>
+                    </div>
+                    <p class="italic mb-4">"Imobiliária exemplo em Videira. Fiz algumas fotos profissionais da equipe e do ambiente interno que foi projetado pelas arquitetas Duda e Eli da Studio_E. O novo endereço no bairro Dois Pinheiros tem facilidade de acesso e é mais tranquilo para estacionar. Atendimento especializado e equipe sempre atenta aos detalhes. Obrigada pela parceria!."</p>
+                    <p class="font-semibold">- Ariane M.</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl">★★★★★</div>
+                    </div>
+                    <p class="italic mb-4">"Atendimento excepcional! Me orientaram em cada etapa e conseguiram o imóvel perfeito para minha família."</p>
+                    <p class="font-semibold">- Ana Oliveira</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-accent text-2xl">★★★★★</div>
+                    </div>
+                    <p class="italic mb-4">"Velocidade e eficiência na venda do meu imóvel. Superaram todas as expectativas!"</p>
+                    <p class="font-semibold">- Marcos Santos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+<section class="py-16 bg-accent text-white">
+  <div class="container mx-auto px-6 text-center">
+
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug">
+      Talvez Essa Seja a Oportunidade Perfeita para <br class="hidden md:block">
+      Comprar Sua Casa Agora
+    </h2>
+
+    <!-- Texto de apoio -->
+    <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto text-gray-100">
+      Imóvel com estas características de qualidade são raros no mercado. <br>
+      <span class="font-semibold">Agende sua visita hoje mesmo!</span>
+    </p>
+
+    <!-- Botão WhatsApp -->
+    <div class="flex justify-center">
+      <a href="https://api.whatsapp.com/send/?phone=554932026885&text=Gostei+da+casa+gostaria+de+conhecer" 
+         target="_blank" 
+         class="bg-green-600 hover:bg-green-700 text-white px-6 py-4 rounded-lg shadow-lg flex items-center justify-center gap-3 text-sm md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 whitespace-normal text-center w-full md:w-auto">
+        <i class="fab fa-whatsapp text-xl md:text-2xl"></i> 
+        Solicitar mais Informações
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- Footer -->
+<footer class="bg-secondary text-white py-12">
+  <div class="container mx-auto px-6">
+    
+    <!-- Grid principal -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+      <!-- Logo + descrição -->
+      <div>
+        <img src="https://orsattoimoveisvideira.com.br/wp-content/uploads/2025/09/Design-sem-nome-10.png" 
+             alt="Orsatto Imóveis" 
+             class="h-12 mb-4 brightness-110">
+        <p class="text-gray-300 leading-relaxed">
+          Há mais de <span class="font-semibold text-white">15 anos</span> transformando sonhos em endereços concretos.
+        </p>
+      </div>
+
+      <!-- Contato -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Contato</h4>
+        <p class="text-gray-300 mb-2 flex items-center gap-2">
+          <i class="fas fa-phone-alt"></i> (49) 3202-6885
+        </p>
+        <p class="text-gray-300 mb-2 flex items-center gap-2">
+          <i class="fas fa-envelope"></i> moacir@orsattoimoveisvda.com.br
+        </p>
+        <p class="text-gray-300 flex items-start gap-2">
+          <i class="fas fa-map-marker-alt mt-1"></i> Rua Pedro Andreazza, 147<br>Dois Pinheiros, Videira - SC
+        </p>
+      </div>
+
+      <!-- Redes Sociais -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Redes Sociais</h4>
+        <div class="flex space-x-5">
+          <a href="https://instagram.com/orsattoimoveisvda" class="text-gray-300 hover:text-accent transition-colors">
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+          <a href="#" class="text-gray-300 hover:text-accent transition-colors">
+            <i class="fab fa-facebook text-2xl"></i>
+          </a>
+          <a href="#" class="text-gray-300 hover:text-accent transition-colors">
+            <i class="fab fa-youtube text-2xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Horários -->
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Horário de Atendimento</h4>
+        <p class="text-gray-300">Segunda a Sexta</p>
+        <p class="text-gray-300">9h às 18h</p>
+      </div>
+    </div>
+
+    <!-- Linha inferior -->
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
+      <p>&copy; 2025 Orsatto Imóveis. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
